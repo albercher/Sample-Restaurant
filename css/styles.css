@@ -3,6 +3,14 @@
   padding: 50px 50px;
 }
 
+body {
+font-family: 'Roboto', sans-serif !important;
+}
+
+span {
+  font-weight: bolder;
+}
+
 /* navigation */
 
 .navbar-brand {
@@ -11,7 +19,7 @@
 
 .navbar {
   padding: 0 50px;
-  
+
 }
 
 .nav-item {
@@ -29,6 +37,10 @@
   padding: 0;
 }
 
+.subtext {
+  font-size: 30px !important;
+}
+
 .hero:before {
   content: "";
   background: rgba(0, 0, 0, 0.5);
@@ -43,6 +55,7 @@
   text-align: center;
   position: relative;
   color: white;
+  font-size: 60px
 }
 
 .hero-heading {
