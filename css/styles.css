@@ -1,0 +1,240 @@
+/* general */
+.sections {
+  padding: 50px 50px;
+}
+
+/* navigation */
+
+.navbar-brand {
+  color: #ff7a00 !important;
+}
+
+.navbar {
+  padding: 0 50px;
+  
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+/* hero */
+
+.hero {
+  max-width: 100%;
+  height: 100vh;
+  background: url("../img/food.jfif") top center;
+  background-size: cover;
+  position: relative;
+  padding: 0;
+}
+
+.hero:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.hero-txt {
+  text-align: center;
+  position: relative;
+  color: white;
+}
+
+.hero-heading {
+    padding-top: 40vh;
+}
+
+span {
+  color: #ff7a00
+}
+
+/* about */
+
+.about {
+  background: url("../img/decor.png") center center;
+  background-size: cover;
+  position: relative;
+  padding: 80px 0;
+}
+
+.about:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.about-txt {
+  color: white;
+  position: relative;
+}
+
+.about-heading {
+  color: #ff7a00;
+  position: relative;
+  border-bottom: 1px solid #ff7a00;
+  padding-bottom: 3px;
+}
+
+.about-img {
+  position: relative;
+  transition: .5s;
+}
+
+.about-img-main {
+  max-width: 100%;
+  border: 4px solid rgba(255, 255, 255, 0.2);
+  position: relative;
+}
+
+.about-img::before {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  width: 60px;
+  height: 60px;
+  z-index: 1;
+  content: '';
+  border-left: 5px solid #ff7a00;
+  border-top: 5px solid #ff7a00;
+  transition: .5s;
+}
+
+.about-img::after {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  width: 60px;
+  height: 60px;
+  z-index: 2;
+  content: '';
+  border-right: 5px solid #ff7a00;
+  border-bottom: 5px solid #ff7a00;
+  transition: .5s;
+}
+
+.about-img:hover {
+  transform: scale(1.03);
+}
+
+.about-img:hover::before {
+  left: 10px;
+  top: 10px;
+}
+
+.about-img:hover::after {
+  right: 10px;
+  bottom: 10px;
+}
+
+/* menu */
+.menu {
+  background-color: #1a1814;
+}
+
+.menu h2 {
+  color: #ff7a00;
+}
+
+.menu-heading {
+  color: white;
+  text-align: center;
+}
+
+.menu #menu-flters {
+  padding: 0;
+  margin: 0 auto 0 auto;
+  list-style: none;
+  text-align: center;
+  border-radius: 50px;
+}
+
+.menu #menu-flters li {
+  cursor: pointer;
+  display: inline-block;
+  padding: 8px 12px 10px 12px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1;
+  color: #fff;
+  margin-bottom: 10px;
+  transition: all ease-in-out 0.3s;
+  border-radius: 50px;
+}
+
+.menu #menu-flters li:hover, .menu #menu-flters li.filter-active {
+  color: #ff7a00;
+}
+
+.menu #menu-flters li:last-child {
+  margin-right: 0;
+}
+
+.menu .menu-item {
+  margin-top: 50px;
+}
+
+.menu .menu-img {
+  width: 70px;
+  border-radius: 50%;
+  float: left;
+  border: 5px solid rgba(255, 255, 255, 0.2);
+}
+
+.menu .menu-content {
+  margin-left: 85px;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.menu .menu-content::after {
+  content: "......................................................................"
+ "...................................................................."
+ "....................................................................";
+  position: absolute;
+  left: 20px;
+  right: 0;
+  top: -4px;
+  z-index: 1;
+  color: #ff7a00;
+}
+
+.menu .menu-content a {
+  padding-right: 10px;
+  background: #1a1814;
+  position: relative;
+  z-index: 3;
+  font-weight: 700;
+  color: white;
+  transition: 0.3s;
+}
+
+.menu .menu-content a:hover {
+  color: #ff7a00;
+}
+
+.menu .menu-content span {
+  background: #1a1814;
+  position: relative;
+  z-index: 3;
+  padding: 0 10px;
+  font-weight: 600;
+  color: #ff7a00;
+}
+
+.menu-ingredients {
+  margin-left: 85px;
+  font-style: italic;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.5);
+}

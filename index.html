@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Restaurant Name</title>
+    <!-- css -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- boostrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+  </head>
+
+
+
+
+  <body>
+
+  <!-- navigation -->
+  <section class="hero" id="hero">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-transparent">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Restaurant Name</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link scrollto active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link scrollto" href="#about">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link scrollto" href="#">Menu</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- hero -->
+<div class="container hero-container">
+  <div class="row">
+    <div class="col-sm-12 col-lg-12 hero-heading">
+      <h1 class="hero-txt">Welcome to <span>Restaurant Name</span></h1>
+      <h4 class="hero-txt">Proudly serving you for 12 years</h4>
+    </div>
+  </div>
+</section>
+
+<!-- about -->
+<section id="about" class="sections about">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-lg-6">
+        <h3 class="about-heading">About Us</h3>
+        <p class="about-txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien mauris, sodales non semper posuere, tempor vel erat. Sed lacinia lacinia velit, sit amet pretium diam condimentum id. Curabitur consectetur sed mauris nec congue. Integer sodales felis sapien, ac interdum massa condimentum sit amet. Etiam nunc erat, viverra eu pellentesque non, sodales in nulla. Maecenas porttitor lobortis neque, in aliquet velit tempor sit amet. Aliquam erat volutpat. Praesent nec nibh at felis efficitur pretium.</p>
+      </div>
+      <div class="col-sm-12 col-lg-6">
+      <div class="about-img">
+        <img class="about-img-main" src="img/dining.jpeg" alt="">
+      </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<!-- menu -->
+<section id="menu" class="menu sections">
+  <div class="container" data-aos="fade-up">
+
+    <div class="menu-heading">
+      <h2>Menu</h2>
+      <p>Check Our Tasty Menu</p>
+      <hr>
+    </div>
+
+    <div class="row" data-aos="fade-up" data-aos-delay="100">
+      <div class="col-lg-12 d-flex justify-content-center">
+        <ul id="menu-flters">
+          <li data-filter="*" class="filter-active">All</li>
+          <li data-filter=".filter-starters">Starters</li>
+          <li data-filter=".filter-salads">Salads</li>
+          <li data-filter=".filter-specialty">Specialty</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="row menu-container" data-aos="fade-up" data-aos-delay="200">
+
+      <div class="col-lg-6 menu-item filter-starters">
+        <img src="img/lobster-bisque.jpg" class="menu-img" alt="">
+        <div class="menu-content">
+          <a href="#">Lobster Bisque</a><span>$5.95</span>
+        </div>
+        <div class="menu-ingredients">
+          Lorem, deren, trataro, filede, nerada
+        </div>
+      </div>
+
+      <div class="col-lg-6 menu-item filter-specialty">
+        <img src="img/bread-barrel.jpg" class="menu-img" alt="">
+        <div class="menu-content">
+          <a href="#">Bread Barrel</a><span>$6.95</span>
+        </div>
+        <div class="menu-ingredients">
+          Lorem, deren, trataro, filede, nerada
+        </div>
+      </div>
+
+      <div class="col-lg-6 menu-item filter-starters">
+        <img src="img/cake.jpg" class="menu-img" alt="">
+        <div class="menu-content">
+          <a href="#">Crab Cake</a><span>$7.95</span>
+        </div>
+        <div class="menu-ingredients">
+          A delicate crab cake served on a toasted roll with lettuce and tartar sauce
+        </div>
+      </div>
+
+      <div class="col-lg-6 menu-item filter-salads">
+        <img src="img/caesar.jpg" class="menu-img" alt="">
+        <div class="menu-content">
+          <a href="#">Caesar Selections</a><span>$8.95</span>
+        </div>
+        <div class="menu-ingredients">
+          Lorem, deren, trataro, filede, nerada
+        </div>
+      </div>
+
+      <div class="col-lg-6 menu-item filter-specialty">
+        <img src="img/tuscan-grilled.jpg" class="menu-img" alt="">
+        <div class="menu-content">
+          <a href="#">Tuscan Grilled</a><span>$9.95</span>
+        </div>
+        <div class="menu-ingredients">
+          Grilled chicken with provolone, artichoke hearts, and roasted red pesto
+        </div>
+      </div>
+
+      <div class="col-lg-6 menu-item filter-starters">
+        <img src="img/mozzarella.jpg" class="menu-img" alt="">
+        <div class="menu-content">
+          <a href="#">Mozzarella Stick</a><span>$4.95</span>
+        </div>
+        <div class="menu-ingredients">
+          Lorem, deren, trataro, filede, nerada
+        </div>
+      </div>
+
+      <div class="col-lg-6 menu-item filter-salads">
+        <img src="img/greek-salad.jpg" class="menu-img" alt="">
+        <div class="menu-content">
+          <a href="#">Greek Salad</a><span>$9.95</span>
+        </div>
+        <div class="menu-ingredients">
+          Fresh spinach, crisp romaine, tomatoes, and Greek olives
+        </div>
+      </div>
+
+      <div class="col-lg-6 menu-item filter-salads">
+        <img src="img/spinach-salad.jpg" class="menu-img" alt="">
+        <div class="menu-content">
+          <a href="#">Spinach Salad</a><span>$9.95</span>
+        </div>
+        <div class="menu-ingredients">
+          Fresh spinach with mushrooms, hard boiled egg, and warm bacon vinaigrette
+        </div>
+      </div>
+
+      <div class="col-lg-6 menu-item filter-specialty">
+        <img src="img/lobster-roll.jpg" class="menu-img" alt="">
+        <div class="menu-content">
+          <a href="#">Lobster Roll</a><span>$12.95</span>
+        </div>
+        <div class="menu-ingredients">
+          Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+<!-- bootstrap js -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+  </body>
+</html>
